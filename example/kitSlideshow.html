@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Example kitSlideshow</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+    <script>window.jQuery || document.write("<script src='../../../../../lib/jquery-1.5.1.js'>\x3C/script>")</script>
+
+    <script src="../jquery.kitSlideshow.js"></script>
+    <link rel="stylesheet" href="../css/kitSlideshow.css"/>
+
+<style>
+    .myslideshow {
+        width: 200px;
+        height: 210px;
+        overflow: hidden;
+    }
+    .el {
+        display: inline-block;
+        zoom: 1;
+        *display: inline;
+        background-color: #CCCCCC;
+        margin: 2px;
+        padding: 20px;
+    }
+</style>
+
+</head>
+<body>
+<h1>kitSlideshow</h1>
+<div class="myslideshow">
+    <div class="el">
+        div No 1
+    </div>
+    <div class="el">
+        div No 2<br/>
+        <a href="http://www.kitpages.fr"><img src="kitpages_small.jpg"/></a>
+    </div>
+    <div class="el">
+        div No 3
+    </div>
+    <div class="el">
+        div No 4
+    </div>
+    <div class="el">
+        <iframe href="kitSlideshow.html" width="50" height="60"></iframe>
+        div No 5
+    </div>
+    <div class="el">
+        <iframe width="210" height="157" src="http://www.youtube.com/embed/lBcORwcCf8I" frameborder="0" allowfullscreen></iframe>
+        div No 6
+    </div>
+    <div class="el">
+        div No 7
+    </div>
+    <div class="el">
+        div No 8
+    </div>
+</div>
+<script>
+$('.myslideshow').kitSlideshow();
+</script>
+</body>
+</html>

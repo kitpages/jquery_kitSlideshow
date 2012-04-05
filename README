@@ -1,0 +1,50 @@
+kitSlideshow : an slideshow in a jQuery plugin (without jquery ui)
+===================================================================
+
+A slideShow here is a horizontal presentation of several pages.
+
+AUTHOR
+======
+Philippe Le Van, Kitpages, http://www.kitpages.fr
+twitter : @plv
+
+DEMO
+====
+you can find a demostration here : http://www.xxx
+
+Features
+========
+
+* anything can be integrated in the slideShow (div, text, vidéo, image,...)
+* speed and acceleration are configurable
+* preventable events are sent on animation beginning, redenring and stop
+* the html inside the slider is very basic and standard HMTL. You don't have
+to follow specific html guideline to make it work
+
+LICENSE
+=======
+BSD (see in this directory)
+
+History - versions
+=================
+03/02/2012 : 1.0
+- first release
+
+Requirements
+============
+Tested with jQuery 1.5.1 and jQuery 1.7.0
+
+Compatibility
+=============
+Tested on IE6-9, FF 10. It should be ok with the other browsers
+
+Known bugs
+==========
+none for the moment
+
+======================================================
+User's Guide
+======================================================
+
+You can see a functional example in the example/ directory
+

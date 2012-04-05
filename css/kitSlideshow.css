@@ -1,0 +1,18 @@
+.kit-slideshow-button-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    opacity: 0.5;
+}
+.kit-slideshow-button-right {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+    opacity: 0.5;
+}
